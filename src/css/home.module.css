@@ -1,0 +1,80 @@
+.home-content {
+    background-color: var(--fondo-gris);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem;
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.info-container .home-title,.home-subtitle {
+    margin-bottom: 1rem;
+}
+.home-buttons {
+    display: inherit;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.home-buttons .home-icon {
+    display: block;
+    height: 2.7rem;
+    width: 2.7rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--blanco);
+}
+.home-buttons .home-icon:hover {
+    color: var(--azul-claro);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+.image-container .image {
+    height: 20rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    border-radius: 10rem;
+}
+
+.home-button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--azul);
+    border: none;
+    color: var(--blanco);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home-button:hover {
+    background-color: var(--azul-claro);
+}
+.home-button .button-image {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.download-button .button-image {
+    height: 1rem;
+    width: 1rem;
+}

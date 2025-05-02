@@ -1,0 +1,42 @@
+.experiencia-container {
+    background-color: var(--fondo-negro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.experiencia-container h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.experiencia-item {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.experiencia-item h3,h4,p,.items-container {
+    margin-bottom: 1rem;
+}
+.experiencia-item p {
+    color: var(--gris-letra);
+}
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.items-container .exp-item {
+    height: 2rem;
+    width: 2rem;
+    color: var(--gris-letra);
+}
+.experiencia-pic {
+    margin-left: 1rem;
+    height: 15rem;
+    width: 20rem;
+}

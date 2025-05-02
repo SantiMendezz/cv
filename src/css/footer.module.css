@@ -1,0 +1,57 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo-negro);
+    padding: 2rem 0 0.5rem 0;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; /* Esto alinea verticalmente todos los hijos */
+    justify-content: center;
+    gap: 1.5rem; /* Espacio consistente entre elementos */
+}
+
+.parrafo-item {
+    font-size: 1rem;
+    margin: 0; /* Elimina márgenes por defecto */
+    line-height: 1; /* Controla la altura de línea */
+    display: flex;
+    align-items: center; /* Alinea el texto con los iconos */
+}
+.footer-item:nth-last-child(2) {
+    margin: 2rem 0 2.5rem 0;
+}
+
+.footer-link, .footer-button {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--blanco);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer-button {
+    background-color: var(--azul);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.footer-button:hover {
+    background-color: var(--azul-claro);
+}
+
+.footer-icon {
+    font-size: 1.5rem; /* Tamaño consistente para iconos */
+    vertical-align: middle;
+}
+
+.footer-link:hover {
+    color: var(--azul-claro);
+}
+.footer-buttons .footer-icon:hover {
+    color: var(--azul-claro);
+}

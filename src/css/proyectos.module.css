@@ -1,0 +1,38 @@
+.proyectos-container {
+    background-color: var(--fondo-gris);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.proyectos-container h2 {
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.proyectos-item {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+.proyectos-data h3,p {
+    margin-bottom: 1rem;
+}
+
+.proyectos-desc {
+    background-color: var(--azul-medio);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.imagen-proyecto {
+    height: 12rem;
+    width: 20rem;
+    object-fit: contain;
+    margin: 0 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}

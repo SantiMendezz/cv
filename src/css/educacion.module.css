@@ -1,0 +1,44 @@
+.educacion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--fondo-gris);
+    padding: 2rem 0rem;
+}
+
+.educacion-item {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 1rem 0rem;
+    background-color: var(--azul-medio);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 60%;
+}
+@media screen and (max-width:1023px) {
+    .educacion-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cursos {
+        margin-bottom: 1rem;
+    }
+}
+
+.cursos h3 {
+    margin-bottom: 1rem;
+}
+.cursos p {
+    line-height: 1.2rem; /*Espacio entre etiquetas <p>*/
+}
+
+.logo-institucion {
+    max-width: 50%;       /* Ancho máximo (ajusta según necesidad) */
+    max-height: 200px;    /* Altura máxima (previene logos muy altos) */
+    width: auto;         /* Mantiene proporción del ancho */
+    height: auto;        /* Mantiene proporción del alto */
+    object-fit: contain; /* Muestra toda la imagen sin recortar */
+    margin-left: 1rem;   /* Espacio entre texto y logo (opcional) */
+}
