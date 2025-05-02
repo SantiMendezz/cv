@@ -1,12 +1,15 @@
-import './App.css'
-import { LandingPage } from './components/LandingPage'
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+import { LandingPage } from './components/LandingPage';
 
 function App() {
   return (
-    <>
-      <LandingPage />
-    </>
-  )
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
