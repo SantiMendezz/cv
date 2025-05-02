@@ -15,7 +15,7 @@ export const Experiencia = () => {
                     <div className={styles['exp-data']}>
                         <h3>Técnico en computación y Desarrollador - Rectorado - Universidad Nacional del Nordeste</h3>
                         <h4 className={styles['time-lapse']}>2024 - Actualmente</h4>
-                        <p>Realizo tareas de <span>soporte técnico de hardware y software</span>, además del <span>desarrollo de un sistema</span> para control del stock y movimientos de la dirección.</p>
+                        <p>Realizo tareas de <span>soporte técnico de hardware y software</span>, además del <span>desarrollo de sistemas web</span>.</p>
                         <div className={styles['items-container']}>
                             <FaMicrosoft className={styles['exp-item']}/>
                             <IoHardwareChip className={styles['exp-item']}/>
