@@ -33,6 +33,9 @@
 .cursos p {
     line-height: 1.2rem; /*Espacio entre etiquetas <p>*/
 }
+.cursos span {
+    font-weight: 700;
+}
 
 .logo-institucion {
     max-width: 50%;       /* Ancho máximo (ajusta según necesidad) */

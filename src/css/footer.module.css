@@ -7,6 +7,11 @@ footer {
     padding: 2rem 0 0.5rem 0;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 .footer-item {
     display: flex;
     flex-direction: row;
@@ -24,7 +29,7 @@ footer {
     align-items: center; /* Alinea el texto con los iconos */
 }
 .footer-item:nth-last-child(2) {
-    margin: 2rem 0 2.5rem 0;
+    margin: 2rem 1rem 2.5rem 1rem;
 }
 
 .footer-link, .footer-button {
@@ -54,4 +59,8 @@ footer {
 }
 .footer-buttons .footer-icon:hover {
     color: var(--azul-claro);
+}
+
+.footer-copy {
+    color: var(--gris-letra);
 }

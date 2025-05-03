@@ -24,7 +24,7 @@ export const Home = () => {
               <a href='https://www.linkedin.com/in/santiago-m%C3%A9ndez-1a8702214/' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin className={styles["home-icon"]} />
               </a>
-              <button className={styles["home-button"]} onClick={handleClick} >
+              <button className={styles["home-button"]} onClick={handleClick} target='_blank' rel='noopener noreferrer'>
                 <CiMail className={styles['button-image']} />
                 <span>santimendezsam@gmail.com</span>
               </button>

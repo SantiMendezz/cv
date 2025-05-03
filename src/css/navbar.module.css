@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: var(--fondo-negro);
 }
 
@@ -11,6 +11,7 @@
     cursor: pointer;
     text-decoration: none;
     color: var(--blanco);
+    background-color: transparent;
     margin: 0rem 1rem;
     padding: 1.5rem;
     transition: all 0.3s ease;
@@ -24,9 +25,9 @@
     margin-left: 1rem;
 }
 
-@media (max-width: 645px) {
+@media (max-width: 768px) {
     .navbar-container {
-        justify-content: flex-start;
+        justify-content: center;
         /* Mantiene el resto del navbar alineado */
     }
 

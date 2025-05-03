@@ -21,6 +21,9 @@
 .proyectos-data h3,p {
     margin-bottom: 1rem;
 }
+.proyectos-data span {
+    font-weight: 700;
+}
 
 .proyectos-desc {
     background-color: var(--azul-medio);
@@ -35,4 +38,29 @@
     margin: 0 1rem;
     background-color: white;
     border-radius: 1rem;
+}
+
+.proyectos-icon {
+    display: inline-block;
+    height: 2.7rem;
+    width: 2.7rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--blanco);
+}
+.proyectos-icon:hover {
+    color: var(--azul-claro);
+}
+
+/* Importante: luego del and -> usar un espacio sino hay error en la sintaxis */
+@media screen and (max-width:768px) {
+    .proyectos-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .proyectos-desc {
+        padding-right: 0.8rem;
+    }
 }
