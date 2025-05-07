@@ -59,6 +59,7 @@
     .proyectos-item {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .proyectos-desc {
         padding-right: 0.8rem;
